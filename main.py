@@ -1,9 +1,13 @@
-print("Welcome to the Git Calculator")
+from add import add
+from sub import sub
+from mul import mul
 
-# Placeholder for feature functions
-# TODO: Import add, sub, mul functions later
+print("Welcome to the Git Calculator")
 
 if __name__ == "__main__":
     a = 10
     b = 5
-    print("Calculator initialized.")
+
+    print(f"Addition: {add(a, b)}")
+    print(f"Subtraction: {sub(a, b)}")
+    print(f"Multiplication: {mul(a, b)}")
